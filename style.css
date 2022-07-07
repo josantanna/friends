@@ -1,0 +1,67 @@
+html, body, header, ul, li, p, form, button{
+  margin: 0;
+  padding:0;
+  list-style: none;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans';
+}
+.container{
+  background-color: black;
+  display: flex;
+  height: 1000px;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-evenly;  
+}
+.container header img{
+  width: 200px;
+  height: 65px;
+  border-radius: 10px;    
+}
+.container h1{  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: antiquewhite;
+}
+.container ul {
+  display: flex;
+  gap: 20px;
+     
+}
+.container ul li img{ 
+  border: 1.5px solid transparent; 
+  width: 160px;
+  height: 160px;
+  border-radius: 12px;
+  
+}
+.container li p{  
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 17px;  
+  color: #9C9C9C; 
+    
+}
+.container form button{
+  color: #9C9C9C;
+  background-color: black;
+  border: solid 2px #9C9C9C;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+}
+.container ul li img:hover{
+  border: transparent;
+  border: solid 2px#9C9C9C;
+  transition: 0.5s;
+  transform: scale(1.4);
+}
+.container form button:hover{
+  background-color: aliceblue;
+  color: black;
+  transition: 0.6s;
+}
